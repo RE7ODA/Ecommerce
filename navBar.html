@@ -1,0 +1,90 @@
+
+<!-- Search Popup -->
+
+<div class="search-dropdown" id="searchPopup">
+    <div class="search-close" id="searchClose">×</div>
+  
+    <div class="search-header">
+      <input type="text" placeholder="Search" />
+      <span class="search-icon">🔍</span>
+    </div>
+  
+    <div class="search-content">
+      <div class="search-section">
+        <h3>Products</h3>
+        <ul>
+          <li><a href="#">Vertical Logo Square...</a></li>
+          <li><a href="#">Pillow Eyeglasses</a></li>
+          <li><a href="#">Unisex Rectangle S...</a></li>
+          <li><a href="#">Kids Glossy Pantho...</a></li>
+          <li><a href="#">Kids Panthos Sungl...</a></li>
+        </ul>
+      </div>
+      <div class="search-section">
+        <h3>Categories</h3>
+        <ul>
+          <li><a href="#">Sunglasses</a></li>
+          <li><a href="#">Eyeglasses</a></li>
+          <li><a href="#">Eye Contacts</a></li>
+        </ul>
+      </div>
+      <div class="search-section">
+        <h3>Brands</h3>
+        <ul>
+          <li><a href="#">MIU MIU</a></li>
+          <li><a href="#">PRADA</a></li>
+          <li><a href="#">Prada Linea Rossa</a></li>
+          <li><a href="#">Ray-Ban</a></li>
+          <li><a href="#">EYE'M</a></li>
+          <li><a href="#">GUCCI</a></li>
+          <li><a href="#">Oakley</a></li>
+          <li><a href="#">Ray-Ban Junior</a></li>
+          <li><a href="#">Cartier</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Header Section -->
+  <header class="header">
+   
+    <div class="navbar">
+      <div class="logo"><a href="index.html"></a> <img src="images/ChatGPT Image Apr 19, 2025, 11_25_14 PM.png" alt=""></div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a id="register" href="register.html">Register</a>  
+  
+        <div class="dropdown">
+          <a href="categories.html">Categories <span>▼</span></a>
+          <div class="dropdown-content">
+            <a href="./sunGlasses.products.html">Sunglasses</a>
+            <a href="./medicalGlasses.products.html">Medical Glasses</a>
+            <a href="./EyeContacts.products.html">Eye Contacts</a>
+          </div>
+        </div>
+        <a href="./about.html">About</a>
+        <a href="./contact.html">Contact</a>
+      </nav>
+      <div class="icons">
+        <button id="cartIcon" class="icon-btn" title="Cart">🛒</button>
+        <button id="cartIconClose" class="icon-btn" title="Cart">🛒</button>
+        <button class="icon-btn search-toggle" title="Search">🔍</button>
+        <a href="fav.html">
+          <button class="icon-btn" title="Favorites">❤️</button>
+        </a>
+        <button id="profileIcon" class="icon-btn search-toggle" title="Profile">👤</button>
+
+        <button id="profileIconClose" class="icon-btn search-toggle" title="Profile">👨🏻‍💻</button>
+      </div>
+    </div>
+  </header>
+    <div class="overlay" id="overlay"></div>
+  
+    <!-- Profile Popup -->
+    <div class="profilePage" id="profilePage">
+      <a href="account.html" class="profile-link">My Account</a>
+      <button onclick="signOut();"  class="" title="Close">Sign Out</button>
+    </div>
+  <!-- Cart Popup -->
+  <div id="cardPage" class="cardPage">
+  </div> 

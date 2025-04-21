@@ -1,0 +1,168 @@
+.cardPage {
+    display: none;
+    width: 30%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    padding: 10px;
+    border-radius: 0px 0 5px 5px;
+    box-shadow: 0px 0px 10px #0000003a;
+    margin: 3px;
+    transition: linear 0.5s;
+}
+
+.icon-btn-close {
+    display: none;
+    position:absolute;
+    font-size: 30px;
+    top: 37px;
+    right: 173px;
+    border: none;
+    background: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: #333;
+    transition: linear 0.5s;
+}
+
+.cart-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid #00000009;
+    padding-bottom: 30px;
+}
+
+.cart-item img{
+    width: 130px;
+}
+.cart-item h3{
+    font-size: 20px;
+}
+.cart-item h2{
+    font-size: 19px;
+    font-weight: 400;
+    color: #000000;
+    max-width: 120px;
+}
+.cart-item button{
+    border: none;
+    background-color:#fff;
+    outline: none;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 17px;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.quantity-control button {
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.cart-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cart-summary h2 {
+    border-top: 2px solid #00000009;
+    padding-top: 15px;
+}
+
+.cart-summary button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.profilePage{
+    width: 12%;
+    height: 200px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    padding: 10px;
+    border-radius: 0px 0 5px 5px;
+    box-shadow: 0px 0px 10px #0000003a;
+    margin: 3px;
+    transition: linear 0.5s;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    display: none;
+}
+#profileIconClose{
+    display: none;
+}
+.profile-icon{
+  position: absolute;
+  right: 13px;
+  top: 34px;
+}
+
+.profilePage a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0;
+    border-bottom: 2px solid #00000009;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.profilePage a:hover{
+    color: #007bff;
+    transform: scale(1.05);
+    transition: 0.05s;
+}
+.profilePage button{
+    width: 100%;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 2px;
+    margin-top: 10px;
+    border: 1px solid #000;
+    margin-top: 30px;
+}
+
+.profilePage button:hover{
+    background-color: #fff;
+    color: #000;
+    outline: none;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+@media screen and (max-width:789px) {
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Dashboard</title>
+    <!-- Link to FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/account.css">
+    <link rel="stylesheet" href="./css/favourt.css" />
+    <link rel="stylesheet" href="./css/Shopping-card.css" />
+</head>
+<body>
+  <div include-html="navBar.html"></div>
+
+<!-- Main Content -->
+<div class="account-wrapper">
+    <div class="welcome-msg">
+      <h2>👋 Welcome Back!</h2>
+      <p>Here you can manage your account, view your orders, and favorite items.</p>
+    </div>
+
+    <!-- Account Info Section -->
+    <section class="section-card-profile">
+      <h3 class="section-title">👤 Account Information</h3>
+      <div class="user-info">
+        <img src="images/user.png">
+        <div class="user-info-details">
+          <p><strong>Name:</strong> <span id="name">John Doe</span></p>
+          <p><strong>Email:</strong> <span id="email">john@example.com</span></p>
+          <p><strong>Phone Number:</strong> <span id="phone">01206434510</span></p>
+          <p><strong>Country:</strong> <span id="country">Egypt</span></p>
+          <p><strong>Address:</strong> <span id="address">Elsyouf</span></p>
+      </div>
+      </div>
+    </section>
+
+    <!-- Orders Section -->
+    <section class="section-card">
+      <h3 class="section-title">📦 My Orders</h3>
+      <div id="my-orders" class="my-orders">
+      </div>
+    </section>
+
+    <!-- Favorites Section -->
+    <section class="section-card">
+        <h3 class="section-title">❤️ My Favorites</h3>
+        <div id="my-favorites" class="my-favorites">
+          <div class="favorites-grid" id="favorites-grid">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- Footer -->
+<footer class="footer" id="contact">
+  <div class="newsletter">
+    <h4>Subscribe for latest updates</h4>
+    <input type="email" placeholder="Your email address" />
+    <button>Subscribe</button>
+  </div>
+  <div class="footer-links">
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms of Service</a>
+    <a href="#">Help Center</a>
+  </div>
+  <div class="contact-info">
+    <p>📞 WhatsApp: +201205052851</p>
+    <p>📧 Email: info@abdelrahman.com</p>
+    <p>📘 Facebook: <a href="https://facebook.com/abdelrahman" target="_blank">/abdelrahman</a></p>
+  </div>
+  <p>&copy; 2025 Abdelrahman. All rights reserved.</p>
+</footer>
+  <script src="./js/navbar.js"></script>
+  <script src="./js/account.js"></script>
+<script src="./js/shopping-cart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

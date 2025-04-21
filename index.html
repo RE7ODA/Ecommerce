@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - Abdelrahman</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="./css/products.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div include-html="navBar.html"></div>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>SALE</h1>
+      <p>UP TO 50% OFF ON SELECTED SUNGLASSES</p>
+      <button class="cta"><a class="cta-link" href="./categories.html">Shop Now</a></button>
+      <style>
+        .cta-link{
+          text-decoration: none;
+          color: white;
+        }
+      </style>
+    </div>
+    <img src="images/hero (3).jpeg" alt="Hero Image" class="hero-img" />
+  </section>
+
+  <!-- Spring's Newest Releases -->
+  <section class="products" id="products">
+    <h2>Spring's Newest Releases</h2>
+    <div class="product-grid" id="new-releases"></div>
+  </section>
+
+  <!-- Banners Section -->
+  <section class="banners">
+    <div class="banner">
+      <img src="images/Metallic Muse.jpg" alt="Metallic Muse" />
+      <h3>Metallic Muse</h3>
+    </div>
+    <div class="banner">
+      <img src="images/oversized.jpg" alt="Oversized Appeal" />
+      <h3>The Oversized Appeal</h3>
+    </div>
+  </section>
+
+  <!-- Trending Now Section -->
+  <section class="products">
+    <h2>Trending Now</h2>
+    <div class="product-grid" id="trending-products"></div>
+  </section>
+
+  <!-- Brand Highlight Section -->
+  <section class="brand-highlight">
+    <img id="highlight-img" src="images/grace.jpg" alt="Highlight Image" />
+    <div class="text-block" id="highlight-caption">
+      <h3>Grace in Every Glance</h3>
+    </div>
+    <button class="nav-btn left" id="prev-btn">&#10094;</button>
+    <button class="nav-btn right" id="next-btn">&#10095;</button>
+  </section>
+
+  <!-- Top Brand Picks Section -->
+  <section class="brands-cards">
+    <h2>Top Brand Picks</h2>
+    <div class="brand-card-container" id="brand-cards"></div>
+  </section>
+
+  <!-- Optic Odyssey Section -->
+  <section class="products" id="categories">
+    <h2>Start your Optic Odyssey Now</h2>
+    <div class="product-grid" id="optic-odyssey"></div>
+  </section>
+
+
+  <!-- Footer Section -->
+  <footer class="footer" id="contact">
+    <div class="newsletter">
+      <h4>Subscribe for latest updates</h4>
+      <input type="email" placeholder="Your email address" />
+      <button>Subscribe</button>
+    </div>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Help Center</a>
+    </div>
+    <div class="contact-info">
+      <p>📞 WhatsApp: +201205052851</p>
+      <p>📧 Email: info@abdelrahman.com</p>
+      <p>📘 Facebook: <a href="https://facebook.com/abdelrahman" target="_blank">abdelrahman</a></p>
+    </div>
+    <p>&copy; 2025 Abdelrahman. All rights reserved.</p>
+  </footer>
+  <script src="./js/localStorage.js"></script>
+  <script src="./js/navbar.js"></script>
+
+  <script src="./js/script.js"></script>
+  <script src="./js/shopping-cart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
