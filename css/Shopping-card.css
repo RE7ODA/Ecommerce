@@ -163,6 +163,9 @@
     transform: scale(1.05);
     transition: 0.3s;
 }
+.fa-trash-can{
+    color: #000;
+}
 
 @media screen and (max-width:789px) {
 }
